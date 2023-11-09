@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: medium;
+}
+html,body{
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+}
+.container{
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(245, 230, 236);
+}
+
+
+
+.heading{
+    font-size: 50px;
+    color: rgb(141, 141, 209);
+}
+
+.searchBox{
+    width: 40vw;
+    height: 40px;
+   /* border: 3px solid black;*/
+    border-radius: 20px;
+    padding: 0px 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.searchBox input{
+    width: 80%;
+    height: 90%;
+    margin: auto 5px; 
+    border: 0;
+    outline: none;
+    border: none;
+  border-bottom: 2px solid #252424;
+  background-color: rgb(245, 230, 236);
+  
+
+    
+}
+
+.searchBtn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:  rgb(245, 230, 236);
+
+   
+}
+
+.cardBox{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.card {
+    height: 440;
+    width: 340px;
+   /* border: 1px solid black;*/
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    border: none;
+    border-bottom: 2px dashed rgb(141, 141, 209);
+}
+
+.card:hover{
+    bottom: 10px;
+}
+
+
+.card-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .card-author {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .card-image {
+    display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 30%;
+  transform: translateY(-50%);
+    /*margin: auto;
+    padding: auto;
+    justify-content: center;*/
+  }
+
+.desc{
+   margin-top: 40px;
+    
+    display: -webkit-box;
+    -webkit-line-clamp: 6; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
